@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  background-color: black;
+  padding: 15px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  color: white;
+  list-style: none;
+  font-size: 20px;
+  line-height: 25px;
+}
+@media screen and (min-width: 768px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  li {
+    margin: 10px;
+  }
+}
